@@ -5,6 +5,6 @@ This repository contains various snippets of code and random notes related to Ma
 * attach.wl: package to emulate sage's %attach magic
 
 * to have graphic output when running in a terminal use 
-{{{
+```
 <<JavaGraphics`
-}}}
+```
