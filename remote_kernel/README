@@ -1,0 +1,12 @@
+To configure a remote kernel with ssh and NAT do the following:
+
+* put init.m in ~/.Mathematica/Kernel/init.m on the remote machine
+* setup a new kernel in the frontend with 
+	Arguments To MLOpen:
+        -LinkMode Listen -LinkProtocol TCPIP -LinkOptions MLDontInteract -LinkHost 127.0.0.1
+
+	Launch Command
+        "/path/to/tunnel.sh" [user[:password]@]remote_machine[:port] "remote_kernel_path" "`linkname`"
+
+* profit
+
