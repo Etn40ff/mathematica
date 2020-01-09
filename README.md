@@ -22,3 +22,8 @@ This also works well in conjunction with `JavaGraphics`
 * to have a saner readline interface alias math to something like `rlwrap -c -e
   '' -f ~/.Mathematica/local/commands -H ~/.Mathematica/local/history -pgreen -m
   /opt/mathematica/bin/math -rawterm`
+
+Another (free) way to access mathematica is though Jupyter:
+* use https://github.com/WolframResearch/WolframLanguageForJupyter for the frontend
+and
+* WolframEngine https://www.wolfram.com/engine/?source=nav for the backend
